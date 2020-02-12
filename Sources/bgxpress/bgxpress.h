@@ -11,12 +11,12 @@
  * limitations under the License.
  */
 
-#import <Foundation/Foundation.h>
-#import <CoreBluetooth/CoreBluetooth.h>
-#import "bgx_ota_update.h"
-#import "bgx_dms.h"
-#import "SafeType.h"
-#import "BGXDevice.h"
-#import "BGXpressScanner.h"
-#import "Version.h"
+#include <Foundation/Foundation.h>
+#include <CoreBluetooth/CoreBluetooth.h>
+#include "bgx_ota_update.h"
+#include "bgx_dms.h"
+#include "SafeType.h"
+#include "BGXDevice.h"
+#include "BGXpressScanner.h"
+#include "Version.h"
 
