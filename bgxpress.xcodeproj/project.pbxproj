@@ -160,7 +160,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -170,7 +170,6 @@
 				OBJ_31 /* README.md */,
 				C90BD96823ECFB96007C3A4D /* Frameworks */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -271,7 +270,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -378,7 +377,7 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Sources/bgxpress/include",
+					"$(SRCROOT)/Sources/bgxpress/",
 				);
 				INFOPLIST_FILE = bgxpress.xcodeproj/bgxpress_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -418,7 +417,7 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Sources/bgxpress/include",
+					"$(SRCROOT)/Sources/bgxpress/",
 				);
 				INFOPLIST_FILE = bgxpress.xcodeproj/bgxpress_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
