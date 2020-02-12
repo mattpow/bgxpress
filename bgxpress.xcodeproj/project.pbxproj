@@ -6,33 +6,11 @@
 	objectVersion = 52;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"bgxpress::bgxpressPackageTests::ProductTarget" /* bgxpressPackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_51 /* Build configuration list for PBXAggregateTarget "bgxpressPackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_54 /* PBXTargetDependency */,
-			);
-			name = bgxpressPackageTests;
-			productName = bgxpressPackageTests;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		C90BD96D23ECFBA2007C3A4D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90BD96923ECFB96007C3A4D /* CoreBluetooth.framework */; platformFilter = ios; };
 		C90BD96E23ECFBA2007C3A4D /* CoreBluetooth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C90BD96923ECFB96007C3A4D /* CoreBluetooth.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C90BD97023ECFBA3007C3A4D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90BD96B23ECFBA0007C3A4D /* SystemConfiguration.framework */; platformFilter = ios; };
 		C90BD97123ECFBA3007C3A4D /* SystemConfiguration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C90BD96B23ECFBA0007C3A4D /* SystemConfiguration.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C90BD97223ECFBCC007C3A4D /* bgxpress.h in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* bgxpress.h */; };
-		C90BD97323ECFBCC007C3A4D /* Version.h in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Version.h */; };
-		C90BD97423ECFBCC007C3A4D /* BGXpressScanner.h in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* BGXpressScanner.h */; };
-		C90BD97523ECFBCC007C3A4D /* bgx_ota_update.h in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* bgx_ota_update.h */; };
-		C90BD97623ECFBCC007C3A4D /* SafeType.h in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* SafeType.h */; };
-		C90BD97723ECFBCC007C3A4D /* BGXUUID.h in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* BGXUUID.h */; };
-		C90BD97823ECFBCC007C3A4D /* bgx_dms.h in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* bgx_dms.h */; };
-		C90BD97923ECFBCC007C3A4D /* BGXDevice.h in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* BGXDevice.h */; };
 		OBJ_37 /* BGXDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* BGXDevice.m */; };
 		OBJ_38 /* BGXpressScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* BGXpressScanner.m */; };
 		OBJ_39 /* SafeType.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* SafeType.m */; };
@@ -40,27 +18,7 @@
 		OBJ_41 /* bgx_dms.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* bgx_dms.m */; };
 		OBJ_42 /* bgx_ota_update.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* bgx_ota_update.m */; };
 		OBJ_49 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_60 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* XCTestManifests.swift */; };
-		OBJ_61 /* bgxpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* bgxpressTests.swift */; };
-		OBJ_63 /* bgxpress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "bgxpress::bgxpress::Product" /* bgxpress.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C90BD96623ECFB3A007C3A4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "bgxpress::bgxpress";
-			remoteInfo = bgxpress;
-		};
-		C90BD96723ECFB88007C3A4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "bgxpress::bgxpressTests";
-			remoteInfo = bgxpressTests;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C90BD96F23ECFBA2007C3A4D /* Embed Frameworks */ = {
@@ -94,13 +52,10 @@
 		OBJ_21 /* Version.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Version.m; sourceTree = "<group>"; };
 		OBJ_22 /* bgx_dms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bgx_dms.m; sourceTree = "<group>"; };
 		OBJ_23 /* bgx_ota_update.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bgx_ota_update.m; sourceTree = "<group>"; };
-		OBJ_26 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		OBJ_27 /* bgxpressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bgxpressTests.swift; sourceTree = "<group>"; };
 		OBJ_31 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* bgxpress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bgxpress.h; sourceTree = "<group>"; };
 		"bgxpress::bgxpress::Product" /* bgxpress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = bgxpress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"bgxpress::bgxpressTests::Product" /* bgxpressTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgxpressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,14 +65,6 @@
 			files = (
 				C90BD97023ECFBA3007C3A4D /* SystemConfiguration.framework in Frameworks */,
 				C90BD96D23ECFBA2007C3A4D /* CoreBluetooth.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_63 /* bgxpress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,28 +80,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		OBJ_24 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_25 /* bgxpressTests */,
-			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_25 /* bgxpressTests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_26 /* XCTestManifests.swift */,
-				OBJ_27 /* bgxpressTests.swift */,
-			);
-			name = bgxpressTests;
-			path = Tests/bgxpressTests;
-			sourceTree = SOURCE_ROOT;
-		};
 		OBJ_28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"bgxpress::bgxpressTests::Product" /* bgxpressTests.xctest */,
 				"bgxpress::bgxpress::Product" /* bgxpress.framework */,
 			);
 			name = Products;
@@ -165,7 +93,6 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_24 /* Tests */,
 				OBJ_28 /* Products */,
 				OBJ_31 /* README.md */,
 				C90BD96823ECFB96007C3A4D /* Frameworks */,
@@ -237,23 +164,6 @@
 			productReference = "bgxpress::bgxpress::Product" /* bgxpress.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"bgxpress::bgxpressTests" /* bgxpressTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_56 /* Build configuration list for PBXNativeTarget "bgxpressTests" */;
-			buildPhases = (
-				OBJ_59 /* Sources */,
-				OBJ_62 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_64 /* PBXTargetDependency */,
-			);
-			name = bgxpressTests;
-			productName = bgxpressTests;
-			productReference = "bgxpress::bgxpressTests::Product" /* bgxpressTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -277,8 +187,6 @@
 			targets = (
 				"bgxpress::bgxpress" /* bgxpress */,
 				"bgxpress::SwiftPMPackageDescription" /* bgxpressPackageDescription */,
-				"bgxpress::bgxpressPackageTests::ProductTarget" /* bgxpressPackageTests */,
-				"bgxpress::bgxpressTests" /* bgxpressTests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,14 +196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				C90BD97223ECFBCC007C3A4D /* bgxpress.h in Sources */,
-				C90BD97323ECFBCC007C3A4D /* Version.h in Sources */,
-				C90BD97423ECFBCC007C3A4D /* BGXpressScanner.h in Sources */,
-				C90BD97523ECFBCC007C3A4D /* bgx_ota_update.h in Sources */,
-				C90BD97623ECFBCC007C3A4D /* SafeType.h in Sources */,
-				C90BD97723ECFBCC007C3A4D /* BGXUUID.h in Sources */,
-				C90BD97823ECFBCC007C3A4D /* bgx_dms.h in Sources */,
-				C90BD97923ECFBCC007C3A4D /* BGXDevice.h in Sources */,
 				OBJ_37 /* BGXDevice.m in Sources */,
 				OBJ_38 /* BGXpressScanner.m in Sources */,
 				OBJ_39 /* SafeType.m in Sources */,
@@ -313,29 +213,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_59 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_60 /* XCTestManifests.swift in Sources */,
-				OBJ_61 /* bgxpressTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		OBJ_54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "bgxpress::bgxpressTests" /* bgxpressTests */;
-			targetProxy = C90BD96723ECFB88007C3A4D /* PBXContainerItemProxy */;
-		};
-		OBJ_64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "bgxpress::bgxpress" /* bgxpress */;
-			targetProxy = C90BD96623ECFB3A007C3A4D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		OBJ_3 /* Debug */ = {
@@ -368,6 +246,7 @@
 		OBJ_34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLY_RULES_IN_COPY_FILES = YES;
 				APPLY_RULES_IN_COPY_HEADERS = YES;
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
@@ -377,9 +256,9 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Sources/bgxpress/",
+					"$(SRCROOT)/Sources/bgxpress/**",
 				);
-				INFOPLIST_FILE = bgxpress.xcodeproj/bgxpress_Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/bgxpress/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -401,6 +280,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TARGET_NAME = bgxpress;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/bgxpress";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -408,6 +288,7 @@
 		OBJ_35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLY_RULES_IN_COPY_FILES = YES;
 				APPLY_RULES_IN_COPY_HEADERS = YES;
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
@@ -417,9 +298,9 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Sources/bgxpress/",
+					"$(SRCROOT)/Sources/bgxpress/**",
 				);
-				INFOPLIST_FILE = bgxpress.xcodeproj/bgxpress_Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/bgxpress/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,6 +322,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TARGET_NAME = bgxpress;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Sources/bgxpress";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -488,82 +370,6 @@
 			};
 			name = Release;
 		};
-		OBJ_52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_53 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_57 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/bgxpress/include",
-				);
-				INFOPLIST_FILE = bgxpress.xcodeproj/bgxpressTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = bgxpressTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		OBJ_58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/bgxpress/include",
-				);
-				INFOPLIST_FILE = bgxpress.xcodeproj/bgxpressTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = bgxpressTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -590,24 +396,6 @@
 			buildConfigurations = (
 				OBJ_46 /* Debug */,
 				OBJ_47 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_51 /* Build configuration list for PBXAggregateTarget "bgxpressPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_52 /* Debug */,
-				OBJ_53 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_56 /* Build configuration list for PBXNativeTarget "bgxpressTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_57 /* Debug */,
-				OBJ_58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -24,8 +24,5 @@ let package = Package(
         .target(
             name: "bgxpress",
             dependencies: []),
-        .testTarget(
-            name: "bgxpressTests",
-            dependencies: ["bgxpress"]),
     ]
 )
