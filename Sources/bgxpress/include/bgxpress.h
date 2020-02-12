@@ -19,4 +19,3 @@
 #include "BGXDevice.h"
 #include "BGXpressScanner.h"
 #include "Version.h"
-
